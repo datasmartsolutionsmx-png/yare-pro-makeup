@@ -1,0 +1,79 @@
+/* Tipografía base */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  scroll-behavior: smooth;
+  padding-top: 70px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Playfair Display', serif;
+  color: #3b3b3b;
+}
+
+/* Navbar  #d8a7a7 */
+.navbar-brand {
+  color: #C09C9C !important;
+}
+
+.nav-link {
+  color: #3b3b3b !important;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #d4af37 !important;
+}
+
+/* Hero */
+.hero {
+  height: 70vh;
+  background: url('../img/hero.jpg') center/cover no-repeat;
+  position: relative;
+  display:flex;
+  align-items:center;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.35);
+}
+
+/* Botones personalizados */
+.btn-gold {
+  background-color: #d4af37;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 25px;
+  transition: 0.3s;
+  border: 1px;
+}
+
+.btn-gold:hover {
+  background-color: #c59e2f;
+}
+
+/* Footer */
+.bg-gold {
+  background-color: #d4af37;
+}
+
+/* Cards and gallery */
+.card {
+  border-radius: 12px;
+}
+
+#galeria img {
+  transition: 0.3s ease-in-out;
+}
+
+#galeria img:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .hero { height: 50vh; }
+}
