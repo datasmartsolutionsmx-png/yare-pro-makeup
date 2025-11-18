@@ -4,13 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Galería | Yare’s Pro Make Up</title>
+
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
 </head>
+
 <body>
+
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
     <div class="container">
@@ -32,59 +35,56 @@
 
   <section class="py-5 mt-5" data-aos="fade-up">
     <div class="container">
-      <h1 class="mb-4 text-center">Trabajos recientes</h1>
-      <p class="text-center text-muted mb-4">Aquí encontrarás una selección de looks creados por Yare’s Pro Make Up. Haz clic en una imagen para verla ampliada.</p>
 
+      <h1 class="mb-4 text-center">Trabajos recientes</h1>
+      <p class="text-center text-muted mb-4">
+        Aquí encontrarás una selección de looks creados por Yare’s Pro Make Up. Haz clic en una imagen para verla ampliada.
+      </p>
+
+      <!-- Galería -->
       <div class="row g-3">
         <div class="col-sm-6 col-md-4">
-          <a href="img/galeria1.jpg" data-lightbox="trabajos" data-title="Look natural - Maquillaje social"><img src="img/galeria1.jpg" class="img-fluid rounded" alt=""></a>
+          <a href="img/galeria1.jpg" data-lightbox="trabajos"><img src="img/galeria1.jpg" class="img-fluid rounded" alt=""></a>
         </div>
         <div class="col-sm-6 col-md-4">
-          <a href="img/galeria2.jpg" data-lightbox="trabajos" data-title="Maquillaje de novia - Acabado luminoso"><img src="img/galeria2.jpg" class="img-fluid rounded" alt=""></a>
+          <a href="img/galeria2.jpg" data-lightbox="trabajos"><img src="img/galeria2.jpg" class="img-fluid rounded" alt=""></a>
         </div>
         <div class="col-sm-6 col-md-4">
-          <a href="img/galeria3.jpg" data-lightbox="trabajos" data-title="Look glam - Ojos intensos"><img src="img/galeria3.jpg" class="img-fluid rounded" alt=""></a>
+          <a href="img/galeria3.jpg" data-lightbox="trabajos"><img src="img/galeria3.jpg" class="img-fluid rounded" alt=""></a>
         </div>
         <div class="col-sm-6 col-md-4">
-          <a href="img/galeria4.jpg" data-lightbox="trabajos" data-title="Maquillaje editorial"><img src="img/galeria4.jpg" class="img-fluid rounded" alt=""></a>
+          <a href="img/galeria4.jpg" data-lightbox="trabajos"><img src="img/galeria4.jpg" class="img-fluid rounded" alt=""></a>
         </div>
         <div class="col-sm-6 col-md-4">
-          <a href="img/galeria5.jpg" data-lightbox="trabajos" data-title="Sesión fotográfica"><img src="img/galeria5.jpg" class="img-fluid rounded" alt=""></a>
+          <a href="img/galeria5.jpg" data-lightbox="trabajos"><img src="img/galeria5.jpg" class="img-fluid rounded" alt=""></a>
         </div>
         <div class="col-sm-6 col-md-4">
-          <a href="img/galeria6.jpg" data-lightbox="trabajos" data-title="Look de noche"><img src="img/galeria6.jpg" class="img-fluid rounded" alt=""></a>
+          <a href="img/galeria6.jpg" data-lightbox="trabajos"><img src="img/galeria6.jpg" class="img-fluid rounded" alt=""></a>
         </div>
-          </div>
+      </div>
 
-          <h1 class="mb-4 text-center">Siguenos en nuestras redes sociales</h1>
-          <div class="social-links" 
-            style="display: flex; 
-            gap: 20px; 
-            flex-wrap: wrap; 
-            margin-top: 30px; 
-            justify-content: center; 
-            align-items: center;">
+      <!-- Redes sociales -->
+      <h1 class="text-center mt-5">Síguenos en nuestras redes sociales</h1>
 
-                <!-- TikTok -->
+      <div class="social-links">
 
-                <a href="https://www.tiktok.com/@yarevaldiviamua"
-                   target="_blank"
-                   class="card"
-                   style="padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.12); text-decoration: none; width: 260px; background: #C09C9C;">
-                    <h3 style="margin-bottom: 10px; color: #fff;"> TikTok</h3>
-                    <p style="color: #fff;">Contenido corto y dinámico sobre nuestros servicios.</p>
-                </a>
-                
-                <!-- YouTube -->
-                <a href="https://www.youtube.com/@YouTube"
-                   target="_blank"
-                   class="card"
-                   style="padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.12); text-decoration: none; width: 260px; background: #C09C9C;">
-                    <h3 style="margin-bottom: 10px; color: #fff;">YouTube</h3>
-                    <p style="color: #fff;">Mira nuestros videos, tutoriales y contenido informativo.</p>
-                </a>
+        <!-- YouTube -->
+        <a href="https://www.youtube.com/@YouTube" target="_blank" class="social-card">
+          <h3>YouTube</h3>
+          <p>Mira nuestros videos, tutoriales y contenido informativo.</p>
+        </a>
 
-            </div>
+        <!-- TikTok -->
+        <a href="https://www.tiktok.com/@tiktok" target="_blank" class="social-card">
+          <h3>TikTok</h3>
+          <p>Contenido corto y dinámico sobre nuestros servicios.</p>
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
   <footer class="text-center py-4 bg-gold text-white mt-5">
     <p class="mb-0">&copy; 2025 Yare’s Pro Make Up. Todos los derechos reservados.</p>
   </footer>
@@ -94,5 +94,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
   <script src="js/main.js"></script>
   <script> AOS.init(); </script>
+
 </body>
 </html>
