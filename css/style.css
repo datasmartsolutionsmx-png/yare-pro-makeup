@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5 {
 /* Botones personalizados */
 .btn-gold {
   border: 1px;
-  padding: 10px 20px;
+  padding: 20px 30px;
   color: white;
   background-color: #d4af37;
   border-radius: 30px;
@@ -52,6 +52,7 @@ h1, h2, h3, h4, h5 {
   transition: 0.3s;
   border: 1px;
 }
+
 
 .btn-gold:hover {
   background-color: #C09C9C;
